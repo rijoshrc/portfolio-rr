@@ -1,7 +1,9 @@
+import { MacbookScroll } from "@/components/ui/macbook-scroll";
+
 function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello there</h1>
+      <MacbookScroll title="Title" />
     </main>
   );
 }
